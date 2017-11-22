@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-offset-3 col-xs-6 white-wrapper">
+      <h1>Add a review for <%= @restaurant.name %></h1>
+      <hr>
+      <%= render 'form', restaurant: @restaurant, review: @review %>
+    </div>
+  </div>
+</div>
